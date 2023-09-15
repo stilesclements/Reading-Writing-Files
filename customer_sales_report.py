@@ -1,7 +1,5 @@
 import csv
 
-
-
 def main():
     Sales=open("sales.csv","r")
     Sales_csv=csv.reader(Sales)
